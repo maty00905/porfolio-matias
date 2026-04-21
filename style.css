@@ -33,7 +33,11 @@ section {
 
 /* NAV */
 header {
-    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--bg);
+    z-index: 1000;
 }
 
 nav {
