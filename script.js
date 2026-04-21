@@ -10,7 +10,7 @@ document.getElementById("form").addEventListener("submit", function(e) {
     alert("Mensaje enviado");
 });
 
-// FADE ANIMATION
+// FADE
 const faders = document.querySelectorAll(".fade");
 
 const appear = new IntersectionObserver((entries) => {
