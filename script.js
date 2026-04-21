@@ -1,6 +1,5 @@
 // DARK MODE
 const btn = document.getElementById("toggleTheme");
-
 btn.addEventListener("click", () => {
     document.body.classList.toggle("light");
 });
@@ -23,3 +22,25 @@ const appear = new IntersectionObserver((entries) => {
 });
 
 faders.forEach(el => appear.observe(el));
+
+// NAV ACTIVO
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav ul li a");
+
+window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        if (scrollY >= sectionTop - 200) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navLinks.forEach(a => {
+        a.classList.remove("active");
+        if (a.getAttribute("href") === "#" + current) {
+            a.classList.add("active");
+        }
+    });
+});
