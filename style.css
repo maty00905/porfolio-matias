@@ -1,15 +1,26 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background: #eef2f7;
     font-family: Arial, sans-serif;
 }
 
-body {
-    background: #f4f4f4;
-    color: #333;
+/* TARJETAS (encuadres) */
+.card {
+    background: white;
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
+/* HERO */
+.hero {
+    text-align: center;
+    background: #0077ff;
+    color: white;
+}
+
+/* NAV */
 header {
     background: #111;
     color: white;
@@ -19,7 +30,6 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 nav ul {
@@ -36,28 +46,26 @@ nav a {
     text-decoration: none;
 }
 
-.hero {
-    text-align: center;
-    padding: 80px 20px;
-    background: #0077ff;
-    color: white;
-}
-
+/* BOTON */
 .btn {
-    background: white;
-    color: #0077ff;
-    padding: 10px 20px;
     display: inline-block;
     margin-top: 20px;
-    text-decoration: none;
+    padding: 10px 20px;
+    background: white;
+    color: #0077ff;
     border-radius: 5px;
+    text-decoration: none;
 }
 
-section {
-    padding: 50px 20px;
-    text-align: center;
+/* LINKS */
+.links a {
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: underline;
 }
 
+/* SKILLS */
 .skills-container {
     max-width: 500px;
     margin: auto;
@@ -82,17 +90,23 @@ section {
 .css { width: 70%; background: #264de4; }
 .js { width: 60%; background: #f0db4f; }
 
-.proyecto {
-    background: white;
-    padding: 20px;
-    margin: 15px auto;
-    max-width: 400px;
-    border-radius: 10px;
+/* PROYECTOS */
+.proyectos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.proyecto {
+    background: #f9f9f9;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* FORM */
 form {
-    max-width: 400px;
-    margin: auto;
     display: flex;
     flex-direction: column;
 }
@@ -109,9 +123,8 @@ button {
     padding: 10px;
 }
 
+/* FOOTER */
 footer {
-    background: #111;
-    color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
