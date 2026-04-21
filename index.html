@@ -21,31 +21,44 @@
     </nav>
 </header>
 
-<section id="inicio" class="hero">
+<!-- INICIO -->
+<section id="inicio" class="card hero">
     <h2>Desarrollador Web en formación</h2>
-    <p>Construyendo soluciones digitales modernas</p>
+    <p>Preparándome para el mundo laboral IT</p>
+
+    <div class="links">
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/TU-USUARIO" target="_blank">LinkedIn</a>
+    </div>
+
     <a href="#contacto" class="btn">Contactarme</a>
 </section>
 
-<section id="sobre">
+<!-- SOBRE MI -->
+<section id="sobre" class="card">
     <h2>Sobre mí</h2>
     <p>
         Soy estudiante de programación web con interés en el desarrollo frontend y backend.
-        Me enfoco en crear aplicaciones funcionales, bien estructuradas y con buen diseño.
+        Me destaco por la responsabilidad, el aprendizaje constante y la creación de soluciones prácticas.
+        Actualmente me preparo para insertarme en el mundo laboral como desarrollador.
     </p>
 </section>
 
-<section id="skills">
+<!-- HABILIDADES -->
+<section id="skills" class="card">
     <h2>Habilidades</h2>
+
     <div class="skills-container">
         <div class="skill">
             <p>HTML</p>
             <div class="bar"><div class="progress html"></div></div>
         </div>
+
         <div class="skill">
             <p>CSS</p>
             <div class="bar"><div class="progress css"></div></div>
         </div>
+
         <div class="skill">
             <p>JavaScript</p>
             <div class="bar"><div class="progress js"></div></div>
@@ -53,31 +66,47 @@
     </div>
 </section>
 
-<section id="proyectos">
+<!-- PROYECTOS -->
+<section id="proyectos" class="card">
     <h2>Proyectos</h2>
 
-    <div class="proyecto">
-        <h3>Portfolio Web</h3>
-        <p>Diseño y desarrollo de mi portfolio personal.</p>
-        <a href="#">Ver proyecto</a>
-    </div>
+    <div class="proyectos-container">
 
-    <div class="proyecto">
-        <h3>App Delivery</h3>
-        <p>Aplicación web para pedidos de comida.</p>
-        <a href="#">Ver proyecto</a>
-    </div>
+        <div class="proyecto">
+            <h3>Sistema de Estacionamiento</h3>
+            <p>
+                Sistema desarrollado para gestionar el ingreso y egreso de vehículos,
+                control de espacios disponibles y registro de datos.
+            </p>
+            <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+            <a href="#">Ver proyecto</a>
+        </div>
 
+        <div class="proyecto">
+            <h3>Portfolio Web</h3>
+            <p>Desarrollo de mi portfolio profesional.</p>
+            <p><strong>Tecnologías:</strong> HTML, CSS</p>
+            <a href="#">Ver proyecto</a>
+        </div>
+
+    </div>
 </section>
 
-<section id="contacto">
+<!-- CONTACTO -->
+<section id="contacto" class="card">
     <h2>Contacto</h2>
+
     <form id="form">
         <input type="text" placeholder="Nombre" required>
         <input type="email" placeholder="Email" required>
         <textarea placeholder="Mensaje"></textarea>
         <button type="submit">Enviar</button>
     </form>
+
+    <p class="linkedin">
+        También podés contactarme por 
+        <a href="https://linkedin.com/in/TU-USUARIO" target="_blank">LinkedIn</a>
+    </p>
 </section>
 
 <footer>
