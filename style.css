@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #0077ff;
+    color: white;
+}
+
+.btn {
+    background: white;
+    color: #0077ff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.bar {
+    background: #ddd;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.html { width: 80%; background: #e34c26; }
+.css { width: 70%; background: #264de4; }
+.js { width: 60%; background: #f0db4f; }
+
+.proyecto {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #0077ff;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
