@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Matías Oropeza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>Matías Oropeza</h1>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre mí</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <h2>Desarrollador Web en formación</h2>
+    <p>Construyendo soluciones digitales modernas</p>
+    <a href="#contacto" class="btn">Contactarme</a>
+</section>
+
+<section id="sobre">
+    <h2>Sobre mí</h2>
+    <p>
+        Soy estudiante de programación web con interés en el desarrollo frontend y backend.
+        Me enfoco en crear aplicaciones funcionales, bien estructuradas y con buen diseño.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Habilidades</h2>
+    <div class="skills-container">
+        <div class="skill">
+            <p>HTML</p>
+            <div class="bar"><div class="progress html"></div></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="bar"><div class="progress css"></div></div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="bar"><div class="progress js"></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos">
+    <h2>Proyectos</h2>
+
+    <div class="proyecto">
+        <h3>Portfolio Web</h3>
+        <p>Diseño y desarrollo de mi portfolio personal.</p>
+        <a href="#">Ver proyecto</a>
+    </div>
+
+    <div class="proyecto">
+        <h3>App Delivery</h3>
+        <p>Aplicación web para pedidos de comida.</p>
+        <a href="#">Ver proyecto</a>
+    </div>
+
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form id="form">
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Matías Oropeza</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
